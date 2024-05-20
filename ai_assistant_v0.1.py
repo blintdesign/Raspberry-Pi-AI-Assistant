@@ -136,7 +136,7 @@ def main():
             button.when_pressed = audio_recording
 
             if ( audio_available == True):
-                process_audio_questation( silent = True)
+                process_audio_questation( silent = False)
 
             time.sleep(0.1)
 
